@@ -1,0 +1,10 @@
+phantom:
+  address: load-model.a2p-dp.angara.cloud
+  ammofile: ./ammo.txt
+  ammo_type: uripost
+  load_profile:
+    load_type: rps
+    schedule: line(1, 10, 1m) step(5, 25, 5, 10)
+autostop:
+  autostop:
+    - http(4xx,100%,1s)

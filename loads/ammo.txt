@@ -1,0 +1,7 @@
+233 
+POST /predict HTTP/1.0
+Host: load-model.a2p-dp.angara.cloud
+Content-Type: application/json
+Content-Length: 233
+
+{"PassengerId" : "601", "Survived" : "1", "Pclass" : "2", "Name" : "Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)", "Sex" : "female", "Age" : "24", "SibSp" : "2", "Parch" : "1", "Ticket" : "243847", "Fare" : "27", "Cabin" : "", "Embarked" : "S"}
